@@ -3,7 +3,7 @@ import React from 'react';
 const Home = () => {
 
   return (
-    <div>
+    <div data-testid='home-page-container'>
       Home
     </div>
   )
