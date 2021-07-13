@@ -1,16 +1,17 @@
 import './App.css';
-import React, {useEffect} from 'react';
+import React from 'react';
 import Home from './home';
 import Details from "./details";
+import Modal from 'react-modal';
 
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 
 function App() {
+  Modal.setAppElement('#root');
   return (
     <div className="App">
       <Router>
@@ -18,11 +19,11 @@ function App() {
           <Route exact path="/">
             <Home/>
           </Route>
-          <Route exact path="/deal/:dealKey">
+          <Route exact path="/deal/:cause/:dealKey">
             <Details/>
           </Route>
           <Route>
-            <div> page not found</div>
+            <div> Page not found</div>
           </Route>
         </Switch>
       </Router>

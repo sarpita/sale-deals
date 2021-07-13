@@ -1,0 +1,33 @@
+.deals-list-by-cause {
+
+}
+
+.deal {
+    padding: 1em;
+    background: #080D37;
+    margin: 0.5em 0;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.deal-cause {
+    color: #305A80;
+    font-weight: 600;
+}
+
+.deal a {
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 1px solid #ffffff;
+}
+
+.add-deal-btn {
+    padding: 0.5em 1em;
+    background: #C00000;
+    color: #fff;
+    border: 0 none;
+    outline: 0 none;
+    border-radius: 3px;
+}

@@ -1,0 +1,25 @@
+.deals-with-cause-wrapper {
+    padding: 1em;
+    border: 1px solid #d4d4d4;
+    margin: 0.5em 0;
+    border-radius: 5px;
+}
+
+.deal-total {
+    flex: 0 0 25%;
+    text-align: right;
+}
+
+.deals-summary-by-cause .deals-with-cause-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.deals-summary-by-cause .deal-cause {
+    flex: 0 0 50%;
+}
+
+.deal-count {
+    flex: 0 0 25%;
+    text-align: left;
+}

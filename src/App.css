@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.primary-btn {
+    background: #080D37;
+    color: #ccc;
+    border: 0 none;
+    outline: 0 none;
+    padding: 0.5em 1em;
+    font-size: 1em;
+}
+
+.primary-btn:hover {
+    background: #305A80;
+    color: #ccc;
+}
